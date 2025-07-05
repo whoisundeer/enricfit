@@ -2,7 +2,14 @@ body, html {margin:0px;padding:0px;background-color:#fff;color:#272727;font-fami
 b, strong {font-weight:700;}
 a:visited, a:link, a:hover, a:active {text-decoration:none;}
 ._tr {-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
-.container {max-width:700px;width:100%;position:relative;}
+.container {
+  max-width:700px;
+  width:100%;
+  position:relative;
+  margin:0 auto;
+  padding:100px 25px;
+  box-sizing: border-box;
+}
 
 h1 {
   font-weight: 700;
