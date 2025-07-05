@@ -1,23 +1,25 @@
-body, html {margin:0px;padding:0px;background-color:#fff;color:#222;font-family: 'Work Sans', sans-serif; font-size:18px;line-height: 1.8;font-weight:400;}
-b, strong {font-weight:600;}
+body, html {margin:0px;padding:0px;background-color:#fff;color:#272727;font-family: 'Work Sans', sans-serif; font-size:18px;line-height: 1.8;font-weight:400;}
+b, strong {font-weight:700;}
 a:visited, a:link, a:hover, a:active {text-decoration:none;}
 ._tr {-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 .container {max-width:700px;width:100%;position:relative;}
 
 h1 {
-  font-size: 38px;
   font-weight: 700;
-  margin-bottom: 20px;
+  font-size: 48px;
+  line-height: 48px;
+  margin:0;
 }
 
 h2 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #444;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  margin:50px 0 20px 0;
 }
 
-/* Párrafos */
 p {
-  margin-bottom: 24px;
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 150%;
 }
